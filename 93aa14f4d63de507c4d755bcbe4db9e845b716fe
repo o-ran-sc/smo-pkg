@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae324c11_4f521b09",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000382
+      },
+      "writtenOn": "2022-04-05T23:03:10Z",
+      "side": 1,
+      "message": "These files are being moved from the old smo/app repo to smo/pkg repo. Nothing else has changed.",
+      "revId": "93aa14f4d63de507c4d755bcbe4db9e845b716fe",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    }
+  ]
+}
