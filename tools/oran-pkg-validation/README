@@ -1,0 +1,27 @@
+ORAN CSAR Package validating Tool
+---------------------------------
+ORAN CSAR package validating tool provides the testers and DevOps engineers to validate the TOSCA version, CSAR version and verify if the yaml file exists in the directory and the enttry definition contents of yaml file.
+
+Source code:
+
+Tool file contents:
+
+main.py
+csar.py
+Toscameta.py
+utlis.py
+
+Usage:
+
+python3 main.py <validate function> -d <destination> [--no-verify-cert] <source>
+
+<source> : source directory where the csar package zip file exists.
+<destination> : destination directory to unzip the csar contents.
+[--no-verify-cert] : Optional parameter.
+
+
+example:
+
+python3 main.py csar-validate -d /tmp/ [--no-verify-cert] CSAR-dest/vnf-vsn.csar
+
+The ORAN CSAR package validation code leverages from vnfsdk CSAR pkg code with modification.
